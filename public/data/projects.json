@@ -1,0 +1,171 @@
+[
+  {
+    "title": "Proccraft",
+    "summary": "Voxel engine for generation of procedural terrains",
+    "description": "This is a voxel terrain engine implemented from scratch in C++ with the graphics API OpenGL and the shading language GLSL. The engine uses a combination of the marching cubes algorithm and simplex noise to generate the voxels and the materials. The genereated terrains are infinite and highly customizeable. For mountainlike terrains, 2D-simplex noise were used to generate a heightmap. For cave systems 3D-simplex noise were used to enable overhangs.",
+    "features": [
+      "Batching",
+      "Face culling",
+      "Marching cubes algotihm",
+      "Simplex noise",
+      "Infinite generation",
+      "Exponential fog",
+      "Phong shading"
+    ],
+    "technologies": [
+      "C++",
+      "OpenGL",
+      "GLSL"
+    ],
+    "year": "2020",
+    "github": "https://github.com/FredrikErikJohansson/Proccraft"
+  },
+  {
+    "title": "Cloudmatch",
+    "summary": "Spotify to Soundcloud recommendation tool",
+    "description": "Tool to connect Spotify and Soundcloud users to recommend amateur music for the Spotify users. Data from 30 000 Soundcloud users with a total of 24 000 000 tracks were collected. The Spotify user is then connected to a group of Soundcloud users based on their mean favorite genre. From that group of people, tracks are choosen according to a scoring system.",
+    "features" : [
+      "kNN",
+      "Machine learning",
+      "Scoring algorithm"
+    ],
+    "technologies": [
+      "Python",
+      "JavaScript",
+      "React",
+      "Flask",
+      "Spotify API",
+      "Soundcloud API"
+    ],
+    "year": "2020",
+    "github": "https://github.com/johanforslund/cloudmatch"
+  },
+  {
+    "title": "Face Recognition Software",
+    "summary": "Software which indentifies faces using image processing",
+    "description": "A Face Recognition program which takes in an image of a face and returns an identification number of a matching face from a database. The program consist of a pipeline which includes: light compensation, normalization, eye and mouth map extraction and lastly feature extraction for each image. These features are what allows the program to determine if there is a match.",
+    "features" : [
+      "Morphology",
+      "Eigenfaces",
+      "Fisherfaces",
+      "PCA",
+      "LDA",
+      "Face masking",
+      "Eyemap",
+      "Mouthmap",
+      "Face normalization",
+      "Face alignment",
+      "Light compensation"
+    ],
+    "technologies": [
+      "MATLAB"
+    ],
+    "year": "2019",
+    "github": "https://github.com/samuelllsvensson/Face_Recognition"
+  },
+  {
+    "title": "Monte Carlo Ray Tracer",
+    "summary": "Monte Carlo Ray Tracer implemented in C++",
+    "description": "A Monte Carlo Ray tracer made during the course Advanced Global Illumination and Rendering at Linköpings University. The ray tracer is physically based and were implemented in C++. The underlying physics range from Bidirectional Reflectance Distribution Functions to Estimations of the light contribution from the rendering equation.",
+    "features" : [
+      "Monte carlo estimator",
+      "Russian roulette",
+      "Lambertian reflectors",
+      "Oren-Nayar reflectors",
+      "Pure reflective surfaces",
+      "Transparent objects",
+      "Multi sampling",
+      "Anti aliasing",
+      "Snell's law",
+      "Brewster's law",
+      "Color bleeding"
+    ],
+    "technologies": [
+      "C++",
+      "OpenMP"
+    ],
+    "year": "2019",
+    "github": "https://github.com/FredrikErikJohansson/Ray-tracer"
+  },
+  {
+    "title": "Metiri",
+    "summary": "Android application to measure distances using ARCore",
+    "description": "The Android application Metiri was developed during the course TNM094, Media Technology - Bachelor Project. Metiri is the Latin word for measured and describes the purpose of the product. The application is a mobile measurement tool that uses augmented reality to measure flat surfaces in real time. It is also possible to measure flat surfaces in stored environments. Metiri has been developed using Google's platform ARCore, the 3D API OpenGL ES and the database library Room. The project was developed using the agile methodology Scrum.",
+    "features" : [
+      "Real-time measure",
+      "Store measurment data",
+      "Surface detection",
+      "Surface visualization",
+      "Onboarding introduction"
+    ],
+    "technologies": [
+      "ARCore",
+      "OpenGL ES",
+      "Android",
+      "Java",
+      "Room"
+    ],
+    "year": "2019",
+    "github": ""
+  },
+  {
+    "title": "Football Simulator",
+    "summary": "Football trajectory simulator with drag and Magnus effect",
+    "description": "This project was developed during the course TNM085, Modelling Project. The goal was to create a mathematical model that describes a projectile's trajectory. The model was verified using simulation tools and finally visualized in a three-dimensional computing environment. The result is a physically realistic football simulator where the user can set physical parameters and see how the trajectory differs.",
+    "features" : [
+      "Drag",
+      "Gravity",
+      "Bounce",
+      "Collision",
+      "Magnus effect",
+      "GUI",
+      "Object import"
+    ],
+    "technologies": [
+      "C++",
+      "OpenGL",
+      "MATLAB"
+    ],
+    "year": "2019",
+    "github": "https://github.com/FredrikErikJohansson/FootballSim"
+  },
+  {
+    "title": "Bibliuteket",
+    "summary": "Android/iOS application for selling course literature",
+    "description": "Bibliuteket is a mobile application to help students at Linköpings University to sell and buy used course literature. The user can post books for sale as well as search for currently available books to buy. The user can also add books to a wishlist to recieve notifications as soon as the books are available. An integrated Facebook Messenger button is used to handle the contact between users. Bibliuteket is availible for download at Google Play and App store.",
+    "features" : [
+      "Posting",
+      "Searching",
+      "Notifications",
+      "Autofill queries",
+      "Wishlist",
+      "User verification"
+    ],
+    "technologies": [
+      "JavaScript",
+      "React Native",
+      "Firebase"
+    ],
+    "year": "2019",
+    "github": "https://github.com/johanforslund/bibliuteket"
+  },
+  {
+    "title": "Amaze",
+    "summary": "Mobile game for Samsung Gear VR, developed in Unreal Engine",
+    "description": "Amaze is a Virtual reality game developed for Samsung Gear VR. The game was implemented using Unreal Engine combined with 3Ds Max. Developing a VR Game for a phone comes with some constraints regarding the performance. However, by using well-thought-out techniques and tricks the game still deliver a relative realistic experience.",
+    "features" : [
+      "VR",
+      "Animations",
+      "Puzzles",
+      "Interactive objects",
+      "Trigger effects"
+    ],
+    "technologies": [
+      "Unreal Engine",
+      "Samsung Gear VR",
+      "3Ds Max"
+    ],
+    "year": "2018",
+    "github": "https://github.com/FredrikErikJohansson/vr-maze"
+  }
+]
