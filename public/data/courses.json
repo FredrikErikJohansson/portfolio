@@ -1,0 +1,232 @@
+
+{
+    "Bachelor": [
+        {
+            "id": 29,
+            "code": "TNM094",
+            "title": "Media Technology - Bachelor Project, 18 credits"
+        },
+        {
+            "id": 28,
+            "code": "TPTE06",
+            "title": "Industrial Placement, 6 credits"
+        },
+        {
+            "id": 27,
+            "code": "TND004",
+            "title": "Data Structures, 6 credits"
+        },
+        {
+            "id": 26,
+            "code": "TNM085",
+            "title": "Modelling Project, 6 credits"
+        },
+        {
+            "id": 25,
+            "code": "TNM093",
+            "title": "Practical Data Visualization and Virtual Reality, 6 credits"
+        },
+        {
+            "id": 24,
+            "code": "TNM087",
+            "title": "Image Processing and Analysis, 6 credits"
+        },
+        {
+            "id": 23,
+            "code": "TNG022",
+            "title": "Modelling and Simulation, 6 credits"
+        },
+        {
+            "id": 22,
+            "code": "TNG028",
+            "title": "Automatic Control, 6 credits"
+        },
+        {
+            "id": 21,
+            "code": "TFYA65",
+            "title": "Physics of Sound, 6 credits"
+        },
+        {
+            "id": 20,
+            "code": "TNM061",
+            "title": "3-D Computer Graphics, 6 credits"
+        },
+        {
+            "id": 19,
+            "code": "TNG015",
+            "title": "Signals and Systems, 6 credits"
+        },
+        {
+            "id": 18,
+            "code": "TNG006",
+            "title": "Statistics, 6 credits"
+        },
+        {
+            "id": 17,
+            "code": "TNM059",
+            "title": "Graphic Arts, 6 credits"
+        },
+        {
+            "id": 16,
+            "code": "TNG032",
+            "title": "Applied Transform Theory, 6 credits"
+        },
+        {
+            "id": 15,
+            "code": "TNM040",
+            "title": "Communication and User Interfaces, 6 credits"
+        },
+        {
+            "id": 14,
+            "code": "TNG033",
+            "title": "Programming in C++, 6 credits"
+        },
+        {
+            "id": 13,
+            "code": "TNA007",
+            "title": "Vector Analysis, 6 credits"
+        },
+        {
+            "id": 12,
+            "code": "TNE043",
+            "title": "Mechanics and Wave Physics, 6 credits"
+        },
+        {
+            "id": 11,
+            "code": "TNA006",
+            "title": "Calculus III, 6 credits"
+        },
+        {
+            "id": 10,
+            "code": "TNM046",
+            "title": "Computer Graphics, 6 credits"
+        },
+        {
+            "id": 9,
+            "code": "TNA005",
+            "title": "Applied Mathematics in Science and Technology, 6 credits"
+        },
+        {
+            "id": 8,
+            "code": "TNA004",
+            "title": "Calculus II, 6 credits"
+        },
+        {
+            "id": 7,
+            "code": "TND002",
+            "title": "Object-Oriented Programming, 6 credits"
+        },
+        {
+            "id": 6,
+            "code": "TNA003",
+            "title": "Calculus I, 6 credits"
+        },
+        {
+            "id": 5,
+            "code": "TNMK30",
+            "title": "Electronic Publishing, 6 credits"
+        },
+        {
+            "id": 4,
+            "code": "TNM088",
+            "title": "Digital Media, 6 credits"
+        },
+        {
+            "id": 3,
+            "code": "TNA002",
+            "title": "Linear Algebra, 6 credits"
+        },
+        {
+            "id": 2,
+            "code": "TND012",
+            "title": "Programming, 6 credits"
+        },
+        {
+            "id": 1,
+            "code": "TNA001",
+            "title": "Foundation Course in Mathematics, 6 credits"
+        }
+    ],
+    "Master": [
+        {
+            "id": 16,
+            "code": "6CMEN",
+            "title": "Degree project - Master’s Thesis, 30 credits"
+        },
+        {
+            "id": 15,
+            "code": "TDDD56",
+            "title": "Multicore and GPU Programming, 6 credits"
+        },
+        {
+            "id": 14,
+            "code": "TNM107",
+            "title": "Scientific Method, 6 credits"
+        },
+        {
+            "id": 13,
+            "code": "TSBK03",
+            "title": "Advanced Game Programming, 6 credits"
+        },
+        {
+            "id": 12,
+            "code": "TNM067",
+            "title": "Scientific Visualization, 6 credits"
+        },
+        {
+            "id": 11,
+            "code": "TNM095",
+            "title": "Artificial Intelligence for Interactive Media, 6 credits"
+        },
+        {
+            "id": 10,
+            "code": "TNM079",
+            "title": "Modelling and Animation, 6 credits"
+        },
+        {
+            "id": 9,
+            "code": "TNM096",
+            "title": "Artificial Intelligence - Principles and Techniques, 6 credits"
+        },
+        {
+            "id": 8,
+            "code": "TDDD38",
+            "title": "Advanced Programming in C++, 6 credits"
+        },
+        {
+            "id": 7,
+            "code": "TBMI26",
+            "title": "Neural Networks and Learning Systems, 6 credits"
+        },
+        {
+            "id": 6,
+            "code": "TDDD41",
+            "title": "Data Mining - Clustering and Association Analysis, 6 credits"
+        },
+        {
+            "id": 5,
+            "code": "TNM084",
+            "title": "Procedural Methods for Images, 6 credits"
+        },
+        {
+            "id": 4,
+            "code": "TNM034",
+            "title": "Advanced Image Processing, 6 credits"
+        },
+        {
+            "id": 3,
+            "code": "TNM108",
+            "title": "Machine Learning for Social Media, 6 credits"
+        },
+        {
+            "id": 2,
+            "code": "TNCG15",
+            "title": "Advanced Global Illumination and Rendering, 6 credits"
+        },
+        {
+            "id": 1,
+            "code": "TNM031",
+            "title": "Network Programming and Security, 6 credits"
+        }
+    ]
+}
