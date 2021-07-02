@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from "next/link"
 
 import Card from "../components/Card"
 
@@ -7,7 +8,12 @@ import projects from "../public/data/projects.json"
 
 export default function Home() {
 
-  const renderProjects = projects.map(project => <Card title={project.title} summary={project.summary} year={project.year} />)
+  const renderProjects = projects.map(project => 
+    <Link key={project.id} href={`/project/${project.id}`}>
+      <a>
+        <Card title={project.title} summary={project.summary} year={project.year} />
+      </a>
+    </Link>)
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
@@ -22,7 +28,7 @@ export default function Home() {
           <h3>a software engineer based in Sweden</h3>
           <p>{person.about}</p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2">
+        <div className="flex">
           {renderProjects}
         </div>
       </main>
