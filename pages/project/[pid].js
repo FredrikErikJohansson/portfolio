@@ -3,7 +3,7 @@ import projects from "../../public/data/projects.json"
 export default function Project({ project }) {
 
   return (
-    <div>
+    <div className="items-center m-4">
       <h1>{project.title}</h1>
       <p>{project.description}</p>
     </div>

@@ -11,24 +11,29 @@ export default function Home() {
   const renderProjects = projects.map(project => 
     <Link key={project.id} href={`/project/${project.id}`}>
       <a>
-        <Card title={project.title} summary={project.summary} year={project.year} />
+        <Card title={project.title} summary={project.summary} year={project.year} preview={project.images[0]} />
       </a>
     </Link>)
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Fredrik | Portfolio</title>
+        {/* <style>{'body { background-color: gray; }'}</style> */}
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-4 text-center">
-        <div>
-          <h1>Hi, I'm {person.firstName},</h1>
-          <h3>a software engineer based in Sweden</h3>
-          <p>{person.about}</p>
+      <main className="items-center m-4">
+        <div className="grid grid-cols-1 gap-4 my-8 md:grid-cols-2">
+          <div>
+            <h1 className="text-3xl font-bold">Hi, I'm {person.firstName},</h1>
+            <h3 className="text-lg text-gray-500">a software engineer based in Sweden</h3>
+          </div>
+          <p className="text-base">{person.about}</p>
         </div>
-        <div className="flex">
+        <h1 className="text-3xl font-bold">Projects</h1>
+        {/* <div className="grid grid-cols-1 gap-4 my-4  md:grid-cols-2 lg:grid-cols-3"> */}
+        <div className="py-4 md:masonry-2-col lg:masonry-3-col box-border mx-auto before:box-inherit after:box-inherit">
           {renderProjects}
         </div>
       </main>

@@ -1,10 +1,20 @@
+import Image from "next/image"
 
-export default function Card({title, summary, year}) {
+export default function Card({title, summary, year, preview}) {
   return (
-    <div className="flex-1 max-w-md shadow-lg rounded-lg ">
-      <h2>{title}</h2>
-      <p>{summary}</p>
-      <p>{year}</p>
+    // <div className="shadow-xl bg-white">
+    <div className="break-inside shadow-xl mb-4 bg-white">
+      <Image 
+        layout='responsive'
+        objectFit='cover' 
+        src={require("../public/images/" + preview)}>
+      </Image>    
+      <div className="p-4 text-sm">
+        <p>{year}</p>
+        <h2 className="text-lg font-bold">{title}</h2>
+        <p>{summary}</p>
+      </div>
+         
     </div>
   )
 }

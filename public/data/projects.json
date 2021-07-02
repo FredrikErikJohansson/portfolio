@@ -19,7 +19,13 @@
       "GLSL"
     ],
     "year": "2020",
-    "github": "https://github.com/FredrikErikJohansson/Proccraft"
+    "github": "https://github.com/FredrikErikJohansson/Proccraft",
+    "images": [
+        "PROC.png",
+        "cave01.png",
+        "cave02.png",
+        "mountain01.png"
+    ] 
   },
   {
     "id": 7,
@@ -40,7 +46,11 @@
       "Soundcloud API"
     ],
     "year": "2020",
-    "github": "https://github.com/johanforslund/cloudmatch"
+    "github": "https://github.com/johanforslund/cloudmatch",
+    "images": [
+        "CLOUDMATCH.png",
+        "CLList.png"
+    ] 
   },
   {
     "id": 6,
@@ -64,7 +74,11 @@
       "MATLAB"
     ],
     "year": "2019",
-    "github": "https://github.com/samuelllsvensson/Face_Recognition"
+    "github": "https://github.com/samuelllsvensson/Face_Recognition",
+    "images": [
+        "FACE.jpg",
+        "facerecog.jpg"
+    ] 
   },
   {
     "id": 5,
@@ -89,7 +103,10 @@
       "OpenMP"
     ],
     "year": "2019",
-    "github": "https://github.com/FredrikErikJohansson/Ray-tracer"
+    "github": "https://github.com/FredrikErikJohansson/Ray-tracer",
+    "images": [
+        "MCRT.jpg"
+    ] 
   },
   {
     "id": 4,
@@ -111,7 +128,10 @@
       "Room"
     ],
     "year": "2019",
-    "github": ""
+    "github": "",
+    "images": [
+        "METIRI.jpg"
+    ] 
   },
   {
     "id": 3,
@@ -133,7 +153,10 @@
       "MATLAB"
     ],
     "year": "2019",
-    "github": "https://github.com/FredrikErikJohansson/FootballSim"
+    "github": "https://github.com/FredrikErikJohansson/FootballSim",
+    "images": [
+        "MOS.jpg"
+    ] 
   },
   {
     "id": 2,
@@ -154,7 +177,10 @@
       "Firebase"
     ],
     "year": "2019",
-    "github": "https://github.com/johanforslund/bibliuteket"
+    "github": "https://github.com/johanforslund/bibliuteket",
+    "images": [
+        "BIBLIU.jpg"
+    ] 
   },
   {
     "id": 1,
@@ -174,6 +200,9 @@
       "3Ds Max"
     ],
     "year": "2018",
-    "github": "https://github.com/FredrikErikJohansson/vr-maze"
+    "github": "https://github.com/FredrikErikJohansson/vr-maze",
+    "images": [
+        "AMAZE.jpg"
+    ] 
   }
 ]
