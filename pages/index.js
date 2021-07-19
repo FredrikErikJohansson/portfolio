@@ -33,9 +33,9 @@ export default function Home() {
       <div className="relative text-white text-lg bg-black" style={{height: "520px"}}>
         <Image className="opacity-60" layout='fill'
           objectFit='cover' src={bg}></Image>
-        <div className="relative m-auto z-1 max-w-sm" >
+        {/* <div className="relative m-auto z-1 max-w-sm" >
           <Image layout='responsive' src={profileImage}></Image>      
-        </div>
+        </div> */}
         <div className="absolute z-2 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-wrap space-y-4 lg:space-y-0 mb-8 w-full justify-center">
           <div className="w-full md:w-1/3 pr-8 max-w-md">
             <h1 className="text-6xl font-bold">Hi, I'm Fredrik,</h1>
